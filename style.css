@@ -1,0 +1,76 @@
+
+h3:first-child {
+    color:pink;
+}
+
+.yellow {
+    color:yellow;
+}
+
+#greycol {
+    color:grey;
+}
+div~p {
+    color:green;
+}
+
+/* div:nth-child(5) { */
+    /* color: red; */
+/* } */
+
+.text-box > div > p {
+    color: red;
+}
+
+
+/* task 2 */
+ol p {
+    color: rgba(221, 0, 255, 0.591);
+}
+
+.list {
+    background-color: rgba(243, 207, 246, 0.709);
+}
+
+a:first-child {
+    color: whitesmoke;
+    font-size: 32px;
+}
+a:first-child:hover {
+    display: inline-block;
+    background-color: #501156c9;
+    padding: 4px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+a:focus {
+    color: black;
+    background-color: bisque;
+    cursor: pointer;
+}
+
+ol p:hover {
+    border-radius: 7px;
+    background-color: #fffb8b9b;
+    cursor: pointer;
+}
+
+li:nth-child(even) {
+    color:aliceblue;
+}
+li:nth-child(even):hover {
+    display: inline-block;
+    background-color: #f7f4f7c9;
+    color: black;
+    cursor: pointer;
+}
+
+li:nth-child(odd) {
+    color:aliceblue;
+}
+li:nth-child(odd):hover {
+    display: inline-block;
+    background-color: #f7f4f7c9;
+    color:black;
+    cursor: pointer;
+}
